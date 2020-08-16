@@ -1,1 +1,1 @@
-buid command: mvn package spring-boot:repackage
+buid command: mvn clean package or mvn package spring-boot:repackage
