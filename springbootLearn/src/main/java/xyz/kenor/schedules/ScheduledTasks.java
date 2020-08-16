@@ -31,4 +31,10 @@ public class ScheduledTasks {
     public void reportCurrentTime() {
         log.info("The time is now {}", dateFormat.format(new Date()));
     }
+
+    // (S M H d m w Y)
+    @Scheduled(cron = "*/10 * * * * *")
+    public void saygoodBye(){
+        System.out.println("hello world!");
+    }
 }
