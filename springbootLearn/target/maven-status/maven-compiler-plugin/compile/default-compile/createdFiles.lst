@@ -1,6 +1,0 @@
-xyz\kenor\controller\GreetingController.class
-xyz\kenor\bean\Greeting.class
-xyz\kenor\schedules\ScheduledTasks.class
-xyz\kenor\restservice\JPA\CustomerRepository.class
-xyz\kenor\bean\Customer.class
-xyz\kenor\AccessingDataJpaApplication.class
