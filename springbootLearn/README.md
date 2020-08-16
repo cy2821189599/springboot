@@ -1,0 +1,1 @@
+buid command: mvn package spring-boot:repackage
