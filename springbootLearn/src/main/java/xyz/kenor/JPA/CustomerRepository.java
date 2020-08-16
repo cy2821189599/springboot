@@ -1,4 +1,4 @@
-package xyz.kenor.restservice.JPA;
+package xyz.kenor.JPA;
 
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.repository.CrudRepository;

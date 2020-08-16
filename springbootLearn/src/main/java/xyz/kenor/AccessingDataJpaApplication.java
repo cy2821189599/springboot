@@ -9,7 +9,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import xyz.kenor.bean.Customer;
-import xyz.kenor.restservice.JPA.CustomerRepository;
+import xyz.kenor.JPA.CustomerRepository;
+import xyz.kenor.uploadingfiles.storage.StorageService;
 
 /**
  * @author ：kenor
@@ -78,4 +79,5 @@ public class AccessingDataJpaApplication {
             log.info("");
         };
     }
+
 }
